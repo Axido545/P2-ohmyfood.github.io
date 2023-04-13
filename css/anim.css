@@ -14,9 +14,18 @@
 	width: 100%;
 	height: 100%;
 	background: #fff;
-  
+  animation: mymove 10s;
+  animation-fill-mode: forwards;
 
   
+  }
+
+
+  @keyframes mymove {
+    from {
+    top:0;}
+    to {
+    top:2000px;}
   }
   main {
     z-index: -1;
