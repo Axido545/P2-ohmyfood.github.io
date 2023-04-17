@@ -1,0 +1,121 @@
+/***load annimation**/
+.lololoader {
+  height: 2000px;
+  width: 2000px;
+  background-color: #fff;
+  z-index: 3;
+  color: black;
+  font-family: "Shrikhand", "cursive";
+  margin: auto;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  min-height: 480px;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  animation: mymove 10s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+  from {
+    top: 0;
+  }
+  to {
+    top: 2000px;
+  }
+}
+main {
+  z-index: -1;
+}
+
+u {
+  display: block;
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  border-top: 5px solid #9356dc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -64px 0 0 -64px;
+  box-sizing: border-box;
+  animation: 2s Rotate ease-in-out infinite;
+  -webkit-animation: 2s Rotate ease-in-out infinite;
+  color: black;
+  line-height: 128px;
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  z-index: 1;
+}
+@keyframes Rotate {
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes Rotate {
+  50% {
+    -webkit-transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+u:before,
+u:after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 128px;
+  height: 128px;
+  top: -5px;
+  left: 0;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+u:before {
+  border-top: 5px solid #ff79da;
+  transform: rotate(120deg);
+}
+
+u:after {
+  border-top: 5px solid #99e2d0;
+  transform: rotate(240deg);
+}
+
+u i {
+  animation: 2s deRotate linear infinite;
+  -webkit-animation: 2s deRotate linear infinite;
+  display: block;
+  width: 128px;
+  height: 128px;
+  position: absolute;
+  top: -5px;
+  left: 0;
+}
+
+@keyframes deRotate {
+  50% {
+    transform: rotate(-180deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes deRotate {
+  50% {
+    -webkit-transform: rotate(-180deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+  }
+}
+
+/***fin load annimation ***/
