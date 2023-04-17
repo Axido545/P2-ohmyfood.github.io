@@ -79,52 +79,7 @@ html {
 /***FIN BASE***/
 
 /***DEBUT HOMEPAGE***/
-/*.loader {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    background-color: rgba(255, 255, 255, 0.90);
-    animation: loader 0.01s;
-    animation-delay: 1.75s;
-    animation-fill-mode: both;
-    z-index: 10000;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-  
-    &__item {
-      height: 1rem;
-      width: 1rem;
-      border-radius: 1rem;
-      animation: jump 1s;
-      animation-iteration-count: 1;
-  
-      &Container {
-        display: flex;
-        width: 5rem;
-        justify-content: space-between;
-      }
-  
-      &--1 {
-        background-color: $color-primary;
-      }
-    
-      &--2 {
-        background-color: $color-secondary;
-        animation-delay: 0.25s;
-      }
-    
- 
-    }
-  
-         &--3 {
-        background-color: #99E2D0;
-        animation-delay: 0.5s;
-      }
-  }
-  */
+
 .local {
   display: flex;
   justify-content: center;
@@ -762,54 +717,6 @@ html {
   mix-blend-mode: lighten;
 }
 
-#card:hover #text {
-  /*  width:calc(250px - 90px);
-       text-overflow:ellipsis;
-    overflow:hidden;
-    white-space:nowrap;*/
-
-  margin-left: 15px;
-  margin-top: 15px;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-}
-
-#card #price {
-  width: 100%;
-  text-align: right;
-  transition: width ease 0.5s;
-  margin-top: -10px;
-}
-
-#card:hover #price {
-  width: calc(250px - 100px);
-}
-
-.menuItem:hover .menuItem__confirmation {
-  margin-right: -1rem;
-  width: 80px;
-}
-
-.menuItem__wrapIcon {
-  height: 1.6rem;
-  width: 1.6rem;
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 100px;
-  transform: rotate(180deg);
-  transition-duration: 0.5s;
-}
-
-.menuItem:hover .menuItem__wrapIcon {
-  transform: rotate(0);
-}
-
-.menuItem__icon {
-  color: #99e2d0;
-}
 
 .wrapBtn {
   display: flex;

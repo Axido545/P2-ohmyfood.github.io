@@ -1,212 +1,363 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/7d17636476.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./css/style.css">
-  
-  <!-- Primary Meta Tags -->
-  <link rel="icon" href="./img/favicon.ico" >
-  <title>Restaurant "A la française" - ohmyfood!</title>
-  <meta name="title" content='Restaurant "A la française" - ohmyfood!'>
-  <meta name="description" content="Ohmyfood! est une entreprise de commande de repas en ligne. Notre concept permet aux utilisateurs de composer leur propre menu et réduire leur temps d’attente dans les restaurants.">
-
-  
-</head>
-<body>
- 
-
-  <header class="header header--withBackArrow">
-    <div class="restaurantContainer">
-      <a href="./index.html"><i class="fas fa-arrow-left header__arrow"></i></a>
-      <h1 class="header__logo">ohmyfood</h1>
-    </div>
-  </header>
-
-  <img src="./img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="" class="heroImg">
-
-  <main class="menu container">
-    <header class="menu__header">
-      <h2 class="menu__title">A la française</h2>
-      <div class="restaurants__figcaption__like">
-        <div class="restaurants__figcaption__like__emptyheart">
-          <!-- svg coeur vide  -->
-          <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-            <path fill="grey" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path>
-          </svg>
-          <!--  -->
-        </div>
-        <div class="restaurants__figcaption__like__fullheart">
-          <!-- svg coeur dégradé -->
-          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-            <defs>
-              <linearGradient id="gradient-fill" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#9356dc" />
-                <stop offset="0.25" stop-color="#a85adc" />
-                <stop offset="0.5" stop-color="#cf64dc" />
-                <stop offset="0.75" stop-color="#f172da" />
-                <stop offset="1" stop-color="#ff79da" />
-              </linearGradient>
-            </defs>
-            <path fill="url(#gradient-fill) #9356dc" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path>
-          </svg>
-          <!--  -->
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/7d17636476.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Restaurant "La note enchantée" - ohmyfood!</title>
+  </head>
+  <body>
+    <header class="header header--withBackArrow">
+      <div class="restaurantContainer">
+        <a href="./index.html"
+          ><i class="fas fa-arrow-left header__arrow"></i
+        ></a>
+        <h1 class="header__logo">ohmyfood</h1>
       </div>
     </header>
 
-    <div class="submenus">
-      <section class="submenu">
-        <h3 class="submenu__title">Entrées</h3>
-        <section class="menuItem delay-0">
-          <header class="menuItem__header">
-            <h4 class="menuItem__title">Tartare de poulpe acidulé</h4>
-            <p class="menuItem__description">Aux zests d'orange</p>
-          </header>
-          <div class="menuItem__price">25€</div>
-          <div class="menuItem__confirmation">
-            <div class="menuItem__wrapIcon">
-              <i class="menuItem__icon fas fa-check"></i>
-            </div>
+    <img
+      src="./img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
+      alt=""
+      class="heroImg"
+    />
+    <main class="menu container">
+      <header class="menu__header">
+        <h2 class="menu__title">La note enchantée</h2>
+        <div class="restaurants__figcaption__like">
+          <div class="restaurants__figcaption__like__emptyheart">
+            <!-- svg coeur vide  -->
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="far"
+              data-icon="heart"
+              class="svg-inline--fa fa-heart fa-w-16"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="grey"
+                d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"
+              ></path>
+            </svg>
+            <!--  -->
           </div>
-        </section>
-        
-        <section class="menuItem delay-1">
-          <header class="menuItem__header">
-            <h4 class="menuItem__title">Velouté de légumes d'antan</h4>
-            <p class="menuItem__description">Carotte, panais, topinambour</p>
-          </header>
-          <div class="menuItem__price">35€</div>
-          <div class="menuItem__confirmation">
-            <div class="menuItem__wrapIcon">
-              <i class="menuItem__icon fas fa-check"></i>
-            </div>
+          <div class="restaurants__figcaption__like__fullheart">
+            <!-- svg coeur dégradé -->
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="heart"
+              class="svg-inline--fa fa-heart fa-w-16"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+            >
+              <defs>
+                <linearGradient
+                  id="gradient-fill"
+                  x1="0"
+                  y1="0"
+                  x2="800"
+                  y2="0"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#9356dc" />
+                  <stop offset="0.25" stop-color="#a85adc" />
+                  <stop offset="0.5" stop-color="#cf64dc" />
+                  <stop offset="0.75" stop-color="#f172da" />
+                  <stop offset="1" stop-color="#ff79da" />
+                </linearGradient>
+              </defs>
+              <path
+                fill="url(#gradient-fill) #9356dc"
+                d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+              ></path>
+            </svg>
+            <!--  -->
           </div>
-        </section>
-  
-        <section class="menuItem delay-2">
-          <header class="menuItem__header">
-            <h4 class="menuItem__title">Soupe à l'oignon</h4>
-            <p class="menuItem__description">Revisité</p>
-          </header>
-          <div class="menuItem__price">20€</div>
-          <div class="menuItem__confirmation">
-            <div class="menuItem__wrapIcon">
-              <i class="menuItem__icon fas fa-check"></i>
-            </div>
-          </div>
-        </section>
-      </section>
-  
-      <section class="submenu">
-        <h3 class="submenu__title">Plats</h3>
-        <section class="menuItem delay-3">
-          <header class="menuItem__header">
-            <h4 class="menuItem__title">Coquilles Saint-Jacques</h4>
-            <p class="menuItem__description">Accompagné d'une purée de panais</p>
-          </header>
-          <div class="menuItem__price">40€</div>
-          <div class="menuItem__confirmation">
-            <div class="menuItem__wrapIcon">
-              <i class="menuItem__icon fas fa-check"></i>
-            </div>
-          </div>
-        </section>
-        
-        <section class="menuItem delay-4">
-          <header class="menuItem__header">
-            <h4 class="menuItem__title">Magret de canard</h4>
-            <p class="menuItem__description">Et parmentier de pommes de terres</p>
-          </header>
-          <div class="menuItem__price">35€</div>
-          <div class="menuItem__confirmation">
-            <div class="menuItem__wrapIcon">
-              <i class="menuItem__icon fas fa-check"></i>
-            </div>
-          </div>
-        </section>
-  
-        <section class="menuItem delay-5">
-          <header class="menuItem__header">
-            <h4 class="menuItem__title">Pigeonneau d'Ille-et-Vilaine</h4>
-            <p class="menuItem__description">Sur son lit de gnocchis aux légumes</p>
-          </header>
-          <div class="menuItem__price">44€</div>
-          <div class="menuItem__confirmation">
-            <div class="menuItem__wrapIcon">
-              <i class="menuItem__icon fas fa-check"></i>
-            </div>
-          </div>
-        </section>
-      </section>
-  
-      <section class="submenu">
-        <h3 class="submenu__title">Desserts</h3>
-        <section class="menuItem delay-6">
-          <header class="menuItem__header">
-            <h4 class="menuItem__title">Pétales de violettes glacés</h4>
-            <p class="menuItem__description">Et purée de noisettes</p>
-          </header>
-          <div class="menuItem__price">18€</div>
-          <div class="menuItem__confirmation">
-            <div class="menuItem__wrapIcon">
-              <i class="menuItem__icon fas fa-check"></i>
-            </div>
-          </div>
-        </section>
-        
-        <section class="menuItem delay-7">
-          <header class="menuItem__header">
-            <h4 class="menuItem__title">Fondant au chocolat</h4>
-            <p class="menuItem__description">Revisité</p>
-          </header>
-          <div class="menuItem__price">22€</div>
-          <div class="menuItem__confirmation">
-            <div class="menuItem__wrapIcon">
-              <i class="menuItem__icon fas fa-check"></i>
-            </div>
-          </div>
-        </section>
-  
-        <section class="menuItem delay-8">
-          <header class="menuItem__header">
-            <h4 class="menuItem__title">Millefeuille croustillant</h4>
-            <p class="menuItem__description">Myrtilles et pâtes d'amande</p>
-          </header>
-          <div class="menuItem__price">23€</div>
-          <div class="menuItem__confirmation">
-            <div class="menuItem__wrapIcon">
-              <i class="menuItem__icon fas fa-check"></i>
-            </div>
-          </div>
-        </section>
-      </section>
-    </div>
+        </div>
+      </header>
 
-    <div class="wrapBtn">
-      <button class="commandBtn">Commander</button>
-    </div>
-  </main>
+      <div class="submenus">
+        <section class="submenu">
+          <h3 class="submenu__title">Entrées</h3>
 
-  <footer class="footer">
-    <div class="container">
-      <span class="footer__logo">ohmyfood</span>
-      <ul class="footer__list">
-        <li class="footer__listElt">
-          <a class="footer__link" href="#"><i class="footer__icon fas fa-utensils"></i>Proposer un restaurant</a>
-        </li>
-        <li class="footer__listElt">
-          <a class="footer__link" href="#"><i class="footer__icon fas fa-hands-helping"></i>Devenir partenaire</a>
-        </li>
-        <li class="footer__listElt">
-          <a class="footer__link" href="#">Mentions légales</a>
-        </li>
-        <li class="footer__listElt">
-          <a class="footer__link" href="mailto:contact@ohmyfood.com">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </footer>
-</body>
+          <section class="carte animated animatedFadeInUp fadeInUp anim-1">
+            <header>
+              <h4>Tartare de poulpe acidulé</h4>
+              <p>Aux zests d'orange</p>
+            </header>
+            <span class="price_carte">25€</span>
+            <div class="conteneur-coche">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="check-circle"
+                class="svg-inline--fa fa-check-circle fa-w-16"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                ></path>
+              </svg>
+            </div>
+          </section>
+          <section class="carte animated animatedFadeInUp fadeInUp anim-2">
+            <header>
+              <h4>Velouté de légumes d'antan</h4>
+              <p>Carotte, panais, topinambour</p>
+            </header>
+            <span class="price_carte">35€</span>
+            <div class="conteneur-coche">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="check-circle"
+                class="svg-inline--fa fa-check-circle fa-w-16"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                ></path>
+              </svg>
+            </div>
+          </section>
+
+          <section class="carte animated animatedFadeInUp fadeInUp anim-3">
+            <div>
+              <header>
+                <h4>Soupe à l'oignon</h4>
+                <p>Revisité</p>
+              </header>
+              <span class="price_carte">20€</span>
+            </div>
+            <div class="conteneur-coche">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="check-circle"
+                class="svg-inline--fa fa-check-circle fa-w-16"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                ></path>
+              </svg>
+            </div>
+          </section>
+
+        </section>
+
+        <section class="submenu">
+          <h3 class="submenu__title">Plats</h3>
+
+          <section class="carte animated animatedFadeInUp fadeInUp anim-1">
+            <header>
+              <h4>Coquilles Saint-Jacques</h4>
+              <p>Accompagné d'une purée de panais</p>
+            </header>
+            <span class="price_carte">40€</span>
+            <div class="conteneur-coche">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="check-circle"
+                class="svg-inline--fa fa-check-circle fa-w-16"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                ></path>
+              </svg>
+            </div>
+          </section>
+
+          <section class="carte animated animatedFadeInUp fadeInUp anim-2">
+            <header>
+              <h4>Magret de canard</h4>
+              <p>Et parmentier de pommes de terres</p>
+            </header>
+            <span class="price_carte">35€</span>
+            <div class="conteneur-coche">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="check-circle"
+                class="svg-inline--fa fa-check-circle fa-w-16"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                ></path>
+              </svg>
+            </div>
+          </section>
+
+          <section class="carte animated animatedFadeInUp fadeInUp anim-3">
+            <header>
+              <h4>Pigeonneau d'Ille-et-Vilaine</h4>
+              <p>Sur son lit de gnocchis aux légumes</p>
+            </header>
+            <span class="price_carte">44€</span>
+            <div class="conteneur-coche">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="check-circle"
+                class="svg-inline--fa fa-check-circle fa-w-16"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                ></path>
+              </svg>
+            </div>
+          </section>
+        </section>
+
+        <section class="submenu">
+          <h3 class="submenu__title">Desserts</h3>
+
+          <section class="carte animated animatedFadeInUp fadeInUp anim-1">
+            <header>
+              <h4>Pétales de violettes glacés</h4>
+              <p>Et purée de noisettes</p>
+            </header>
+            <span class="price_carte">18€</span>
+            <div class="conteneur-coche">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="check-circle"
+                class="svg-inline--fa fa-check-circle fa-w-16"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                ></path>
+              </svg>
+            </div>
+          </section>
+
+          <section class="carte animated animatedFadeInUp fadeInUp anim-2">
+            <header>
+              <h4>Fondant au chocolat</h4>
+              <p>Revisité</p>
+            </header>
+            <span class="price_carte">22€</span>
+            <div class="conteneur-coche">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="check-circle"
+                class="svg-inline--fa fa-check-circle fa-w-16"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                ></path>
+              </svg>
+            </div>
+          </section>
+
+          <section class="carte animated animatedFadeInUp fadeInUp anim-3">
+            <header>
+              <h4>Millefeuille croustillant</h4>
+              <p>Myrtilles et pâtes d'amande</p>
+            </header>
+            <span class="price_carte">23€</span>
+            <div class="conteneur-coche">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="check-circle"
+                class="svg-inline--fa fa-check-circle fa-w-16"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                ></path>
+              </svg>
+            </div>
+          </section>
+        </section>
+      </div>
+
+      <div class="wrapBtn">
+        <button class="commandBtn">Commander</button>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <span class="footer__logo">ohmyfood</span>
+        <ul class="footer__list">
+          <li class="footer__listElt">
+            <a class="footer__link" href="#"
+              ><i class="footer__icon fas fa-utensils"></i>Proposer un
+              restaurant</a
+            >
+          </li>
+          <li class="footer__listElt">
+            <a class="footer__link" href="#"
+              ><i class="footer__icon fas fa-hands-helping"></i>Devenir
+              partenaire</a
+            >
+          </li>
+          <li class="footer__listElt">
+            <a class="footer__link" href="#">Mentions légales</a>
+          </li>
+          <li class="footer__listElt">
+            <a class="footer__link" href="mailto:contact@ohmyfood.com"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
