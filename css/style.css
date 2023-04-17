@@ -1,46 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
 
-
-
-
-/*@use "sass:color";*/
-
 body, html {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
 }
 
-/*
-@mixin button($type) {
-  border: 0;
-  padding: 0.75rem 1.5rem;
-  font-weight: 500;
-  font-size: 1.1rem;
-  border-radius: 100px;
-  color: white;
-  background-color: rgb(104, 104, 104);
-  background-image: linear-gradient(0deg, color.scale($color-primary, $alpha: -10%) 0%, color.scale($color-secondary, $alpha: -10%) 100%);
-  cursor: pointer;
-  transition-duration: 0.25s;
-  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
 
-  &:hover {
-    background-color: white;
-    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.50);
-  }
-
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-}
-
-$color-primary: #9356DC;
-$color-secondary: #FF79DA;
-$color-tertiary: #99E2D0;
-*/
 .container {
   max-width: 1280px;
   margin: auto;
@@ -203,7 +170,7 @@ $color-tertiary: #99E2D0;
   }
 
 
-  .hero_subtitle {
+  .hero__subtitle {
     font-weight: 300;
     margin: 1.5rem 0;
   }
@@ -249,9 +216,9 @@ $color-tertiary: #99E2D0;
 
   
   .tuto {
-    padding: ( 1rem + 1rem ) 1rem;
-  
-  }
+    padding: 2rem 1rem;
+  }  
+
   .tuto__title {
     margin-top: 0;
   }
@@ -261,8 +228,6 @@ $color-tertiary: #99E2D0;
     padding: 0;
     list-style: none;
     counter-reset: compteListe;
-
-
   }
   
   .tuto__step {
@@ -273,8 +238,11 @@ $color-tertiary: #99E2D0;
     background-color: #f6f6f6;
     display: flex;
     position: relative;
+    }
 
-  
+    .tuto__step:hover {
+      background-color: #ff79d957 ;
+
     }
   
 
@@ -622,13 +590,6 @@ $color-tertiary: #99E2D0;
   box-shadow: .25rem .25rem 1rem rgba(0,0,0,.1);
   overflow: hidden;
   cursor: pointer;
-  /*animation: itemAppear .6s;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-fill-mode: none;
-  animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
-  animation-fill-mode: both;
-  transform: scale(0);*/
   max-width: 100%;
   position: relative;
       }
@@ -732,7 +693,7 @@ align-items: flex-end;
 padding-left: .5rem;
 }
 
-.carte p {
+.carte p, .carte h4 {
   margin: 0;
 white-space: nowrap;
 text-overflow: ellipsis;
@@ -808,9 +769,9 @@ right: 80px;
   
 }
 
-.carte:hover p{
+.carte:hover p , .carte:hover h4{
   
-  width:150px;
+  width:250px;
 
 }
 
