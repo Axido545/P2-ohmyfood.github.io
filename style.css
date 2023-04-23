@@ -491,6 +491,22 @@ html {
   animation-delay: 0s;
 }
 
+.anim-1 {
+  animation-delay: 0.25s;
+}
+
+.anim-2 {
+  animation-delay: 0.5s;
+}
+
+.anim-3 {
+  animation-delay: 0.75s;
+}
+
+.anim-4 {
+  animation-delay: 1.s;
+}
+
 /**implémentation***/
 * {
   box-sizing: border-box;
