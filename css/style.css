@@ -241,7 +241,7 @@ html {
 
 .card__badge {
   background-color: #99e2d0;
-  color: #99e2d0;
+  color: white;
   padding: 0.5rem;
   border-radius: 0.125rem;
   position: absolute;
@@ -491,6 +491,22 @@ html {
   animation-delay: 0s;
 }
 
+.anim-1 {
+  animation-delay: 0.25s;
+}
+
+.anim-2 {
+  animation-delay: 0.5s;
+}
+
+.anim-3 {
+  animation-delay: 0.75s;
+}
+
+.anim-4 {
+  animation-delay: 1.s;
+}
+
 /**implémentation***/
 * {
   box-sizing: border-box;
@@ -646,64 +662,6 @@ html {
 * {
   box-sizing: border-box;
 }
-#card {
-  max-width: 100%;
-  height: 75px;
-  border: 1px solid #616161;
-  margin: 0 auto;
-  margin-top: 30px;
-  border-radius: 15px;
-  padding: 15px;
-  position: relative;
-  overflow: hidden;
-
-  background-color: white;
-  display: flex;
-}
-#card #text {
-  transition: width ease 0.5s;
-}
-
-#card div {
-  position: absolute;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: green;
-  width: 0;
-  border-radius: 0 15px 15px 0;
-  transition: width ease 0.5s;
-  overflow: hidden;
-}
-
-#card:hover div {
-  width: 75px;
-}
-
-#card:hover div span {
-  transform: rotate(360deg);
-}
-
-#card div span {
-  width: 32px;
-  height: 32px;
-  background: #ffffff;
-  position: absolute;
-  border-radius: 50%;
-  left: calc(50% - 16px);
-  top: calc(50% - 16px);
-  transition: transform ease 0.5s;
-  display: block;
-}
-
-#card div span svg {
-  width: 28px;
-  height: 28px;
-  padding-left: 4px;
-  padding-top: 4px;
-  display: inline-block;
-}
-
 .fa-heart::before {
   content: "\f004";
 }
